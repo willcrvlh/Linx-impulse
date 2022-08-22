@@ -8,8 +8,8 @@ function Requisicao() {
     async function handleProdutos() {
         const response = await fetch(`https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=${page}`)
         const json = await response.json()
-        setInformacoes(json)
-        console.log(json);
+        setInformacoes([...informacoes,...json.products])
+        console.log(informacoes);
     }
 
   return (

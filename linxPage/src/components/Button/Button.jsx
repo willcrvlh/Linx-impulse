@@ -1,11 +1,10 @@
 import React from 'react'
 import S from'./Button.module.css'
-import Requisicao from '../Requisicao/Requisicao'
 
-function Button({props}) {
+function Button() {
   return (
     <div className='divPai'>
-        <button className={S.btn} onClick={Requisicao}>Ainda mais produtos aqui</button>
+        <button className={S.btn}>Ainda mais produtos aqui</button>
     </div>
   )
 }
