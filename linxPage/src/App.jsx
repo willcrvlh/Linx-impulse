@@ -3,6 +3,9 @@ import './App.css'
 import Header from './components/Header/Header'
 import Button from './components/Button/Button'
 import Input from './components/Input/Input'
+import Requisicao from './components/Requisicao/Requisicao'
+import Card from './components/Card/Card'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -10,6 +13,9 @@ function App() {
     <div className="App">
       <Header/>
       <Input/>
+      <Requisicao/>
+      <Card/>
+      <Button/>
     </div>
   )
 }
