@@ -1,7 +1,12 @@
-.img{
+.image{
     width: 200px;
     height: 150px;
     margin: 0 auto;
+}
+
+.card{
+    display: flex;
+    justify-content:space-around;
 }
 
 .nomeProduto{

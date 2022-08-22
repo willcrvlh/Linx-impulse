@@ -1,10 +1,10 @@
 import React from 'react'
 import S from'./Button.module.css'
 
-function Button() {
+function Button({props}) {
   return (
     <div className='divPai'>
-        <button className={S.btn}>Ainda mais produtos aqui</button>
+        <button className={S.btn}>{props}</button>
     </div>
   )
 }

@@ -3,9 +3,9 @@ import S from './Card.module.css'
 
 function Card({image, name, description, value, promo, parcela}) {
   return (
-    <div>
+    <div className={S.card}>
         <picture className={S.img}>
-          <img src={image} alt="imagem do produto" />
+          <img src={image} alt="imagem do produto" className={S.image} />
         </picture>
         <h3 className={S.nomeProduto}>{name}</h3>
         <p className={S.descricao}>{description}</p>
