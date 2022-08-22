@@ -36,5 +36,14 @@
     color: #888888;
     border:solid #00000029 1px;
     display: inline;
-    text-align: justify;
+    margin-left: 3.5rem;
+}
+.btn1{
+    height: 40px;
+    width: 160px;
+    background-color: white;
+    color: #888888;
+    border:solid #00000029 1px;
+    display: inline;
+    margin-left: 16rem;
 }
